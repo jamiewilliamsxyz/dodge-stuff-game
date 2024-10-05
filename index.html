@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodge Stuff</title>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #1D1D1D;
+        color: #FFFFFF;
+        font-family: "Inter", sans-serif;
+      }
+
+      h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+      }
+
+      #canvas {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+      }
+
+      #score {
+        font-size: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Dodge Stuff</h1>
+    <canvas id='canvas' width='450' height='450'></canvas>
+    <p>Movement: w, a, s, d</p>
+    <p id='score'>Score: 0</p>
+    <script src='script.js'></script>
+  </body>
+</html>
+
+
